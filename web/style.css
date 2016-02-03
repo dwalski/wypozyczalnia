@@ -1,0 +1,178 @@
+body {
+		background:#fbfaf8;
+		margin-left:auto;
+		margin-right:auto;
+		list-style: none;
+		margin:0px;
+    }
+div {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+        position:relative;
+		margin-left:auto;
+		margin-right:auto;
+    }
+a {
+		text-decoration: none;
+	}
+img {
+		border:0px;
+	}
+/* Glówny uklad strony */
+.tlo {
+		background:url(images/tlo.jpg) repeat;
+		width:942px;
+	}
+#logo {
+		background:url(images/logo.jpg);
+		width:752px;
+		height:226px;
+	}
+#logo h1 {
+		margin-top:0px;
+		padding-top:130px;
+		padding-left:30px;
+		color:#f6f6f6;
+	}
+#kontener {
+		width:752px;
+		height:auto;
+		overflow: hidden;
+	}
+/* Glówna tresc strony */
+.menu {
+		margin:8px;
+		background:#ffffff;
+		float:left;
+		height:auto;
+		width:180px;
+		border:solid 1px #eeeeee;
+	}
+.menu dt {	
+		color:#555555;
+		font-size:12px;
+		font-weight:bold;
+		margin-top:-4px;
+		margin-bottom:6px;
+		margin-left:18px;
+		margin-right:10px;
+		padding-left:46px;
+		padding-bottom:4px;
+		border-bottom:solid 1px #f6f6f6;	
+	}
+.menu dd {
+		font-size:11px;
+		margin-bottom:2px;
+		margin-left:27px;
+	}
+.menu dd a{
+		font-size:11px;
+		color:#cb182c;
+	}
+.menu dd a:hover{
+		font-size:11px;
+		color:#555555;
+		font-weight:bold;
+	}
+.tresc {
+		margin:8px;
+		background:#ffffff;
+		float:right;
+		height:auto;
+		width:528px;
+		border:solid 1px #eeeeee;
+	}
+.tytul {
+		margin-left:16px;
+		margin-top:8px;
+		padding-bottom:4px;
+		color:#555555;
+		font-size:18px;
+		font-family:Arial, Helvetica, sans-serif;
+		border-bottom:solid 1px #f6f6f6;
+	}
+.data {
+		margin-left:20px;
+		margin-top:-15px;
+		margin-bottom:14px;
+		color:#aaaaaa;
+		font-size:9px;
+		width:500px;
+		padding-top:0px;
+		padding-bottom:5px;
+		border-bottom:solid 1px #f6f6f6;		
+	}
+.tekst {
+		width:520px;
+		margin-bottom:20px;
+		text-indent:15px;
+		font-size:11px;
+		color:#555555;
+	}
+.tekst span {
+		margin-left:65px;
+		text-align:center;
+	}
+.tekst p {
+		padding-left:12px;
+		padding-right:12px;
+	}
+.tekst a {
+		color:#cb182c;
+	}
+.tekst a:hover {
+		color:#555555;
+		font-weight:bold;
+	}
+/* Dolna czesc, stopka */
+#stopka {
+		background:url(images/stopka.jpg);
+		width:752px;
+		height:19px;
+	}
+#copyright {
+		float:left;
+		margin-left:300px;
+		color:#FFFFFF;
+		font-size:9px;
+		margin-top:4px;
+	}
+#design {
+		float:right;
+		margin-right:10px;
+		color:#FFFFFF;
+		font-size:9px;
+		margin-top:4px;
+	}
+#design a {
+		color:#FFFFFF;
+	}
+#design a:hover {
+		text-decoration:underline;
+	}
+/* Galeria */
+.zdjecia {
+		overflow: hidden;
+	}
+.miniaturka {
+		width:100px;
+		height:100px;
+		border:solid 3px #FF0000;
+		float:left;
+		margin-left:20px;
+		margin-top:16px;
+		margin-bottom:2px;
+	}
+.miniaturka img {
+		width:100px;
+		height:100px;
+		margin-left:-15px;
+	}
+.podpis {
+		width:120px;
+		height:auto;
+		margin-left:5px;
+		text-align:center;
+		float:left;
+	}
+
